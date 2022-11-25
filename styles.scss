@@ -1,0 +1,380 @@
+$bs-font-sans-serif: "Lato";
+$bs-white : #FFFFFF;
+$bs-black: #000000;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+header{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: $bs-black;
+}
+
+body{
+    font-family: $bs-font-sans-serif;
+}
+
+.topbar{
+    height: 3rem;
+}
+
+.social-media{
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.social-media-icon{
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.social-media-icon:hover{
+    color: gray;
+    
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 600px;
+}
+
+.video-fluid{
+    width: 100%;
+}
+
+.list-item{
+    list-style: none;
+    margin-right:15px;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+.carousel-caption-anchor{
+    text-decoration: underline;
+    color:white;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.carousel-caption-anchor:hover{
+    color:white;
+    background-color: #000000;
+    border: solid 1px;
+    padding: 5px;
+}
+
+.carousel-anchor{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:white;
+    background-color: transparent;
+    border: solid 1px;
+    padding: 5px;
+    width: 150px;
+    font-weight: 300;
+    font-size: large;
+}
+
+.carousel-anchor:hover{
+    color: $bs-white;
+    background-color: #000000;
+    border: solid 1px;
+    padding: 5px;
+}
+
+.logo{
+    height: 160px;
+    width: 180px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.cont-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.list-text h2{
+    font-weight: 700;
+}
+
+.list-text h4{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.coleccion-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-coleciones-img{
+    float: left;
+    padding-right: 100px;
+}
+
+.div-colecciones-text{
+    padding-top: 250px;
+    padding-left: 100px;
+    float: right;   
+}
+
+.img-c{
+    height: 600px;
+    border: solid 1px #000000;
+    border-style: double;
+    padding: 10px;
+
+    transition: all 0.5s;
+}
+
+.img-c:hover{
+    transform: scale(1.1);
+}
+
+.coleccion1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.coleccion1 h3{
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.coleccion1 p{
+    text-transform: uppercase;
+    font-weight: 300
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding-right: 5px;
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.coleccion1-img{
+    margin-top: 35px;
+    height: 100%;
+    width: 100%;
+    
+    transition: all 0.5s;
+}
+
+.coleccion1-img:hover{
+    border: solid 1px #000000;
+    padding: 5px;
+    transform: scale(1.1);
+}
+
+.historia-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-historia-img{
+    float: left;
+    padding-right: 100px;
+}
+
+.div-historia-text{
+    padding-top: 250px;
+    padding-left: 100px;
+    float: right;   
+}
+
+.img-h{
+    height: 550px;
+    border: solid 1px #000000;
+    border-style: double;
+    padding: 10px;
+
+    transition: all 0.5s;
+}
+
+.img-h:hover{
+    transform: scale(1.1);
+}
+
+.cont-historia{
+    margin-bottom: 30px;
+}
+
+.cont-historia h3{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.cont-historia h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.img-hw{
+    height: 450px;
+    border: solid 1px #000000;
+    border-style: double;
+    padding: 10px;
+    margin-left: 500px;
+
+    transition: all 0.5s;
+}
+
+.img-hw:hover{
+    transform: scale(1.1);
+}
+
+.historia-text{
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 0 250px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.compras-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-container{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cont-text-mision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.cont-text-mision h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contacto-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contacto-info{
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+.contacto-info h4{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.mapa{
+    margin-top: 65px;
+    
+    transition: all 0.5s;
+}
+
+.mapa:hover{
+    border: solid 1px #000000;
+    padding: 15px;
+    transform: scale(1.1);
+}
+
+.cont-contacto{
+    margin-bottom: 30px;
+}
+
+.border-top{
+    padding: 20px 0px;
+}
+
+a {
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:gray;
+}
+
+.up i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 10;
+    position: fixed; /*superposicion de capas un div sobre otro*/
+    top: 88%;
+    right: 15px;
+    bottom: 30px;
+    right: 10px;
+    font-size: 1.5rem;
+}
+
+.up a{
+    text-decoration: none;
+    color:black;
+    border-color: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
